@@ -17,9 +17,6 @@ import com.google.android.material.navigation.NavigationView;
 
 public class Home extends AppCompatActivity {
 
-//    DrawerLayout drawerLayout;
-//    NavigationView navigationView;
-
     ListView listView;
 
     @Override
@@ -27,13 +24,6 @@ public class Home extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-//        drawerLayout = findViewById(R.id.drawerlayout);
-//        navigationView = findViewById(R.id.navigationview);
-//
-//        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this,drawerLayout,R.string.Navigation_open,R.string.Navigation_close);
-//
-//        drawerLayout.addDrawerListener(toggle);
-//        toggle.syncState();
 
         String[] products = new String[]{"Yamaha Keyboard PSRS750", "Yamaha Keyboard PSRS770", "Yamaha Guitar F310", "Yamaha Guitar F370",
         "Yamaha Guitar", "Flute", "Harmonica", "Yamaha Keyboard PSRS750", "Yamaha Keyboard PSRS770", "Yamaha Guitar F310", "Yamaha Guitar F370",
